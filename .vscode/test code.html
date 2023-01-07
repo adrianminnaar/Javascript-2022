@@ -1,0 +1,42 @@
+<html>
+
+    
+<head>
+  
+        
+<title>
+Append to Elements
+</title>
+
+    
+</head>
+
+
+    
+<body>
+
+   
+<button id="createButton">
+Create Button
+</button>
+
+   
+<span id="addButton"></span>
+
+   
+<p id="anEmptyParagraph"></p>
+   
+<script>
+
+   document.getElementById("createButton").onclick = function() {
+                document.getElementById("addButton").innerHTML = "<button id=\"coolStuff\">Cool Stuff</button>";
+                document.getElementById("coolStuff").onclick = function() {
+                    document.getElementById("anEmptyParagraph").innerHTML = "This is some seriously cool stuff &#128526;";
+                }
+            }
+   
+</script>
+
+</body>
+
+</html>
