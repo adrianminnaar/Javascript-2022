@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,26 @@
     <title>Even or Odd Challange</title>
 
 </head>
-<body>
-    <div id="container">
-        <label for="txtNum">Number</label>
-        <input type="text" id="txtNum" value="0"/>
-    <input type="button" value="Submit" onclick="Submit">
-    <input type="button" value="Reset"><br>
-    <span id="result"></span>
-    <p>Input numbers to see if its odd or even!</p>
 
-    </div>
+<body>
     <script>
-        function Submit(){
-            var num = number(document.getElementById('Submit').value) ;
-            alert(num%2==0);
-            {
-                document.getElementById('Result')
-            }
-        }
-      
+        
+        function displayMessage(value)
+
     </script>
 
-    
+
+        <form>
+            First name:
+            <input type="input" name="yourName">
+            <input type="button" onclick="displayMessage(form.yourName.value)" value="Display Message">
+       
+            
+        </form>
+
+
+
+
 </body>
+
 </html>
