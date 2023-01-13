@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,36 @@
     <title>Odd and Even Challange</title>
     <h2> Odd and Even Challange</h2>
 </head>
+
 <body>
 
     <input type="text" value="0" id="num">
     <button id="btest" value="test" onclick="check()">Test</button>
     <button id="Reset" onclick="reset()">Reset</button><br>
-    
-  
+
+
     <span id="OddorEven">What is it</span>
-<script>
+    <script>
 
-function check()
-{
-   var num = Number( document.getElementById("num").value);
-  
-   if (num%2 ==0) {
-    document.getElementById('OddorEven').innerHTML= "This is Even";
-    
-   } else {
-    document.getElementById('OddorEven').innerHTML= "This is Odd";
-   }
-    
+        function check() {
+            var num = Number(document.getElementById("num").value);
 
-}
-function reset(){
-    document.getElementById('num').value = 0;
-    document.getElementById('OddorEven').innerHTML="Please enter a number"
-}
+            if (num % 2 == 0) {
+                document.getElementById('OddorEven').innerHTML = "This is Even";
+
+            } else {
+                document.getElementById('OddorEven').innerHTML = "This is Odd";
+            }
 
 
+        }
+        function reset() {
+            document.getElementById('num').value = 0;
+            document.getElementById('OddorEven').innerHTML = "Please enter a number"
+        }
 
+    </script>
 
-
-
-
-
-  
-
-
-
-
-</script>
-    
 </body>
+
 </html>
