@@ -6,7 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loop Challange</title>
 </head>
+<h2>My first Loop</h2>
+
+<p id="demo"></p>
+
 <body>
+    <script>
+        
+        
+
+        for ( var i = 1; i <= 100; i++ )
+{
     
+  if ( i%3 === 0 && i%5 === 0 )
+
+  {
+    document.getElementById("demo").innerHTML= i +" "+ "FizzBuzz";
+    console.log( i + " FizzBuzz" );
+  }
+  else if ( i%3 === 0 ) 
+  {
+    document.getElementById("demo").innerHTML= i +" "+ "FizzBuzz";
+    console.log(i+ " Fizz" );
+  }
+  else if ( i%5 === 0 ) 
+  {
+    document.getElementById("demo").innerHTML= i +" "+ "Buzz";
+    console.log(i+ " Buzz" );
+  }
+  else
+  {
+    console.log(i);
+  }
+}
+
+
+
+</script>
+
 </body>
 </html>
+
+  
