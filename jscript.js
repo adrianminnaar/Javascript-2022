@@ -2,14 +2,19 @@
 //Using the "for" loop display the value of each of these items
 //"console.log" the output, separated by a space
 //Add your code below
-
-
-prompt("hello")
-
-
+let task =['swim','study','eat','sleep','running','walking','driving','bikking','hiking','gym','skating'];
+for (x in task) {
+    console.log(task[x]);  
+    }
 //Activity 2 - Edit the loop created above, to now calculate the sum of all the items leading up to 10. e.g. 1 + 2 + 3 = 6
 //console.log your output
 //Add your code below
+function sumArray(task) 
+    var sum = " ";
+    for (var i = 0; i <ar.length; i++) {
+        sum += (task);
+        return sum;
+}
 
 
 //Activity 3 - Using the tasks variable created above
@@ -42,3 +47,4 @@ prompt("hello")
 //Try to replicate the above activity by using a "for in" loop instead
 //Does this work? can you understand and explain why it displays what it displays?
 //Add your code below
+ 
