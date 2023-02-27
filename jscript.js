@@ -2,26 +2,33 @@
 //Using the "for" loop display the value of each of these items
 //"console.log" the output, separated by a space
 //Add your code below
-let task =['swim','study','eat','sleep','running','walking','driving','bikking','hiking','gym','skating'];
+let task =['swim','study','eat','sleep','running','walking','driving','bikking','hiking','gym',];
 for (x in task) {
     console.log(task[x]);  
     }
 //Activity 2 - Edit the loop created above, to now calculate the sum of all the items leading up to 10. e.g. 1 + 2 + 3 = 6
 //console.log your output
 //Add your code below
-function sumArray(task) 
-    var sum = " ";
-    for (var i = 0; i <ar.length; i++) {
-        sum += (task);
-        return sum;
-}
 
+
+
+let sum = 0;
+
+for (let i = 0; i < task.initialValue; i++) {
+   sum += task[i];
+}
+console.log(task);
 
 //Activity 3 - Using the tasks variable created above
 //Create a loop that performs the 15 times table
 //Leading up to the "length" of your tasks variable
 //Add your code below
-
+for (let i = 0; i <= 10, task.length; x++) {
+    const element = task[i];
+    console.log(task);
+    
+}
+if ( x%15 === 0 );
 
 //Activity 4 - Edit your code in activity 3, by creating an array called timesTable
 //And store each value of the your fifteen times table in it
